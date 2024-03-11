@@ -1,0 +1,69 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+}
+.primary-btn:link { 
+    color:black;
+}
+.primary-btn:visited{
+    color: orange;
+}
+.primary-btn:hover {
+    color:red;
+    background-color: black;
+}
+.primary-btn:active{
+    color: aquamarine;
+    background-color: chocolate;
+    border: 4px solid green;
+}
+ul li:first-child{
+    background-color: violet;
+}
+ul li:last-child{
+    background-color: red;
+}
+/*nth child*/
+/*an+b*/
+
+ul li:nth-child(2n+1) {
+    background-color: green;
+}
+
+h1::first-letter{
+    color: rgb(57, 79, 11);
+    font-size: 3rem;
+}
+h1{
+    text-transform: capitalize;
+}
+p{
+    text-transform: capitalize;
+}
+::selection{
+    color:greenyellow;
+    background-color:black;
+}
+p::first-line{
+    background-color: rgb(13, 26, 206);
+}
+/*before and after*/
+h2::before{
+    content:'any ';
+}
+h2::after{
+    content: '*';
+}
+.required::after{
+    content: '*';
+    color: red;
+}
+.important::after{
+    content: 'important';
+    background-color: red;
+    color: white;
+    padding: 0.2rem;
+    font-size:0.5rem ;
+    margin-left: 10px;
+    vertical-align: middle;
+}

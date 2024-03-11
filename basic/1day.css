@@ -1,0 +1,15 @@
+/**{
+    font-family: 'Courier New', Courier, monospace;
+}*/
+body{
+    background-color: rgba(255, 255, 0, 0.47);
+}
+h1{
+    color: blue;
+    background-color: red;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-family:'Courier New', Courier, monospace;
+    background-color: orange;
+}

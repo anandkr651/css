@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-text-color:rgb(182, 209, 188);
+    --secondary-text-color:#2a2064;
+    --card-backgound-color:white;
+    --background-color: #eee;
+    --default-margin:40px;
+}
+
+.dark{
+    --primary-text-color:rgb(56, 48, 132);
+    --secondary-text-color:#2017ca;
+    --card-backgound-color:rgb(75, 189, 40);
+    --background-color:black;
+}
+.container{
+    padding: 40px;
+    /*--my-var:red;*/
+    min-height: 100vh;
+    background-color: var(--background-color);
+}
+h1{
+    text-align: center;
+    /*background-color:var(--my-var,green);*/
+    color:var(--primary-text-color);
+}
+.box{
+    /*--my-var:red;*/
+    padding: var(--default-margin);
+    margin-block:var(--default-margin);
+    border-radius: var(--default-margin);
+   background-color:var(--card-backgound-color);
+}
+.box h2{
+    color:var(--primary-text-color);
+    margin-bottom: var(--default-margin);
+    /* background-color:var(--my-var); */
+}
+.box p{
+   /* background-color:var(--my-var); */
+   color:var(--secondary-text-color);
+}
+@media  screen and (min-width:800px) {
+    .container{
+        --my-var:pink;
+    }
+}
+.stars{
+    font-size: 18px;
+    color: red;
+}
