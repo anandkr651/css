@@ -1,170 +1,3 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    background-color: gainsboro;
-}
-.card{
-    display: grid;
-    width:min(95%,70rem);
-    grid-auto-rows: 300px;
-    grid-template-areas: 'one''two''three''four''five';
-   grid-auto-columns: 1fr;
-   margin: 30px;
-}
-.qwert{
-    display: flex;
-    gap: 1rem;
-    column-gap: 10px;
-
-}
-.box1{
-    background-color: purple;
-    margin: 20px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    padding: 10px;
-    grid-area: one;
-}
-.box1 img{
-   border-radius: 50%;
-}
-.box1 h5{
-    padding-top: 30px;
-    color: white;
-}
-.abc p{
-    color:grey;
-    margin: 10px;
-    font-size: 13px;
-}
-.box1 h3{
-    color: antiquewhite;
-    font-size: 20px;
-    margin: 10px;
-}
-
-.box2{
-    background-color:rgb(28, 29, 32);
-    margin:20px;
-    padding: 10px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    grid-area: two;
-}
-.box2 img{
-    float: left;
-    border-radius: 100%;
-    margin: 10px;
-}
-.box2 h5{
-    padding-top: 30px;
-    color: white;
-}
-.abc1 p{
-    color:grey;
-    margin: 10px;
-    font-size: 10px;
-}
-.box2 h3{
-    color: antiquewhite;
-    margin: 15px;
-    font-size: 20px;
-}
-.box3{
-    background-color:rgb(225, 228, 235);
-    margin: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    grid-area: three;
-}
-.box3 img{
-    float: left;
-    border-radius: 100%;
-    margin: 10px;
-}
-.box3 h5{
-    padding-top: 30px;
-    color:black;
-}
-.abc2 p{
-    color:gray;
-    font-size: 10px;
-    padding: 5px;
-}
-.box3 h3{
-    color: black;
-    margin: 15px;
-    font-size: 20px;
-}
-
-.box4{
-    background-color:rgb(20, 20, 22);
-    margin: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    grid-area: four; 
-}
-.box4 img{
-    float: left;
-    border-radius: 50%;
-    margin: 10px;
-}
-.box4 h5{
-    padding-top: 30px;
-    color:white;
-}
-.abc3 p{
-    color:gray;
-    margin: 10px;
-    font-size: 13px;
-}
-.box4 h3{
-    color: white;
-    margin: 15px;
-    font-size: 20px;
-}
-
-.box5{
-    background-color:rgb(225, 228, 235);
-    margin: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    grid-area: five;
-}
-.box5 img{
-    float: left;
-    border-radius: 50%;
-    margin: 10px;
-}
-.box5 h5{
-    padding-top: 30px;
-    color:black;
-}
-.abc4 p{
-    color:gray;
-    font-size: 13.5px;
-    margin: 10px;
-}
-.box5 h3{
-    color: black;
-    margin: 15px;
-    font-size: 20px;
-}
-@media(width>=1000px) {
-    .card{
-        grid-template-areas:
-        'one one two five'
-        'three four four five' ;    
-       
-    }
-} */
-
 *{
     margin: 0;
     padding: 0;
@@ -196,6 +29,9 @@ p{
     padding: 20px;
     border-radius: 10px;
     grid-area: one;
+    background-image: url(./bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
 }
 .qwert{
     display: flex;
@@ -236,7 +72,7 @@ p{
 .qwert4{
     display: flex;
 }
-@media(width>=1000px) {
+@media(width>=600px) {
     .card{
         grid-template-areas:
         'one one two five'
