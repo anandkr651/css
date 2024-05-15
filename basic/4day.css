@@ -1,29 +1,35 @@
-main{
+main {
     border: 8px solid red;
     width: 100px;
 }
-body{
+
+body {
     font-size: 2em;
 }
-header{
+
+header {
     font-size: 2em;
 }
+
 /*
 h1{
     font-size: 2em;
 }
 */
-h1{
+h1 {
     font-size: 3rem;
     font-size: 10vw;
 }
-h3{
+
+h3 {
     font-size: 1.5rem;
 }
-p{
+
+p {
     font-size: 1.5rem;
 }
-section{
+
+section {
     border: 5px dashed green;
     width: 20vw;
 }

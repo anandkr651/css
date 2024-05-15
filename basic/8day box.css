@@ -1,43 +1,50 @@
-body{
+body {
     color: rgb(45, 161, 16);
 }
-.container{
+
+.container {
     width: 300px;
     height: 600px;
     background-color: gainsboro;
     margin: 100px;
     border-radius: 30px;
 }
- .box{
+
+.box {
     width: 100px;
     height: 100px;
 }
-.red{
+
+.red {
     background-color: red;
     position: relative;
     top: 10px;
     left: 100px;
-    border-radius: 10px; 
+    border-radius: 10px;
 }
-.green{
+
+.green {
     background-color: chartreuse;
     position: absolute;
-    bottom: 0; 
+    bottom: 0;
     right: 0;
     z-index: 2;
-} 
-.blue{
+}
+
+.blue {
     background-color: blue;
     position: fixed;
-     bottom: 30px;
+    bottom: 30px;
     right: 40px;
     z-index: 1;
 }
-.purple{
+
+.purple {
     background-color: purple;
     position: sticky;
     top: 200px;
 }
-.spacer{
+
+.spacer {
     height: 300vh;
-} 
+}

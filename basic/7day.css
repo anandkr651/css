@@ -1,25 +1,30 @@
-*{
+* {
     border: 1px solid red;
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family:cursive;
+
+body {
+    font-family: cursive;
 }
-p{
-    color:rgba(82, 130, 6, 0.938);
+
+p {
+    color: rgba(82, 130, 6, 0.938);
     /* display:inline; */
     width: 34px;
     display: inline-block;
 }
-img{
+
+img {
     width: 500px;
 }
-a{
+
+a {
     display: block;
-  }
-ul{
+}
+
+ul {
     /* list-style:square; */
     box-sizing: border-box;
     padding: 20px;
@@ -27,10 +32,12 @@ ul{
     background-color: rgb(194, 210, 228);
     color: rgb(97, 59, 9);
 }
-li{
+
+li {
     display: inline;
     padding: 4px;
 }
-li:hover{
+
+li:hover {
     color: rgb(214, 26, 57);
 }

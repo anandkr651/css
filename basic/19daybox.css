@@ -1,10 +1,11 @@
-.container{
+.container {
     width: 400px;
     height: 400px;
     background-color: steelblue;
     margin: 80px auto;
 }
-.box{
+
+.box {
     width: 200px;
     height: 200px;
     background-color: tomato;
@@ -12,13 +13,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   /* transform: scalex(1) scaleY(1); */
-   /* transform: skew(30deg,40deg); */
-   /* transform: translate(100px,90px); */
-   /* transform: rotate(45deg); */
-   transform-origin: top left ;
-   transition: 2s ease-in-out ;
+    /* transform: scalex(1) scaleY(1); */
+    /* transform: skew(30deg,40deg); */
+    /* transform: translate(100px,90px); */
+    /* transform: rotate(45deg); */
+    transform-origin: top left;
+    transition: 2s ease-in-out;
 }
-.box:hover{
+
+.box:hover {
     transform: rotate(360deg);
 }

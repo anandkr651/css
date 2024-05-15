@@ -1,8 +1,9 @@
-body{
+body {
     background-color: red;
 }
-@media(400px <= width <= 600px){
-    body{
-    background-color: green;
-}
+
+@media(400px <=width <=600px) {
+    body {
+        background-color: green;
+    }
 }

@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     background-color: teal;
     height: 100vh;
@@ -8,6 +8,7 @@ body{
     flex-direction: column;
     gap: 200px;
 }
+
 .container {
     width: 300px;
     height: 300px;
@@ -16,6 +17,7 @@ body{
     /* border-radius: 50%; */
     animation: orbit 4s linear infinite;
 }
+
 .box {
     width: 100px;
     height: 100px;
@@ -24,70 +26,85 @@ body{
     /* animation-name: orbit; */
     /* animation-name: slide-in; */
     animation-duration: 5s;
-   animation-delay: 2s;
-    animation-iteration-count:1;
-    animation-direction:normal;
-    animation-timing-function:linear;
-/*animation-fill-mode: both;*/
-  border-radius: 40%;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    /*animation-fill-mode: both;*/
+    border-radius: 40%;
 }
-@keyframes orbit{
-     from{
-transform: rotate(0);
+
+@keyframes orbit {
+    from {
+        transform: rotate(0);
     }
-    to{
-transform: rotate(360deg);
+
+    to {
+        transform: rotate(360deg);
     }
 }
-@keyframes slide-in{
-    0%{
+
+@keyframes slide-in {
+    0% {
         transform: translate(-400px);
     }
-    100%{
+
+    100% {
         transform: translate(200px);
     }
 }
-@keyframes circle{
-   0%{
-    transform: translate(0,0);
-   }
-   25%{
-     transform: translate(200px,0);
-   }
-   50%{
-     transform: translate(200px,200px);
-   }
-   75%{
-    transform: translate(0,200px);
-   }
+
+@keyframes circle {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    25% {
+        transform: translate(200px, 0);
+    }
+
+    50% {
+        transform: translate(200px, 200px);
+    }
+
+    75% {
+        transform: translate(0, 200px);
+    }
 }
-.loader{
+
+.loader {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.dot{
+
+.dot {
     width: 10px;
     height: 10px;
-     margin: 50px;
+    margin: 50px;
     border-radius: 10%;
     background-color: antiquewhite;
-    animation: up-down 0.8s  ease infinite alternate;
+    animation: up-down 0.8s ease infinite alternate;
 }
-@keyframes up-down{
-    from{
+
+@keyframes up-down {
+    from {
         transform: translateY(10px);
     }
-    to{
+
+    to {
         transform: translatey(180px);
     }
 }
-.dot:nth-child(2){
+
+.dot:nth-child(2) {
     animation-delay: 0.1s;
 }
-.dot:nth-child(3){
+
+.dot:nth-child(3) {
     animation-delay: 0.2s;
 }
-.dot:nth-child(4){
+
+.dot:nth-child(4) {
     animation-delay: 0.3s;
 }

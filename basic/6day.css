@@ -1,10 +1,11 @@
-h1{
+h1 {
     color: rgb(109, 63, 8);
     background-color: rgb(27, 135, 189);
     text-align: center;
-    text-transform:capitalize;
+    text-transform: capitalize;
 }
-p{
+
+p {
     text-align: center;
     text-transform: capitalize;
     text-indent: 40px;
@@ -16,10 +17,11 @@ p{
     font-family: 'Courier New', Courier, monospace;
     font-size: 1rem;
     font-weight: 600;
-    font-style:oblique;
+    font-style: oblique;
 }
-a{
-    text-decoration:line-through;
+
+a {
+    text-decoration: line-through;
     text-decoration-color: aqua;
     text-decoration-style: wavy;
     text-transform: capitalize;

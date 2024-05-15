@@ -10,10 +10,10 @@
 }
 1*/
 
-h1{
+h1 {
     color: blueviolet;
     /* background-image:  url(https://images.unsplash.com/photo-1475113548554-5a36f1f523d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60); */
-    background-repeat:no-repeat; 
+    background-repeat: no-repeat;
     background-image: url(image.jpg);
     background-size: contain;
 }

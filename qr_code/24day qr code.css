@@ -1,31 +1,36 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: hsl(0,0%,100%);
+    background-color: hsl(0, 0%, 100%);
     margin: 70px;
 }
-.box{
-    background-color: hsl(220,15%,55%);
+
+.box {
+    background-color: hsl(220, 15%, 55%);
     width: 300px;
     border-radius: 20px;
     text-align: center;
     text-transform: capitalize;
 }
-.box img{
+
+.box img {
     width: 300px;
     height: 300px;
     border-radius: 20px;
 }
-.box h2{
+
+.box h2 {
     padding: 10px;
 }
-.box p{
+
+.box p {
     margin: 10px;
     text-align: center;
     font-style: oblique;
