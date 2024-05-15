@@ -17,7 +17,7 @@
    /* transform: translate(100px,90px); */
    /* transform: rotate(45deg); */
    transform-origin: top left ;
-   transition: 1s ease-in-out ;
+   transition: 2s ease-in-out ;
 }
 .box:hover{
     transform: rotate(360deg);
