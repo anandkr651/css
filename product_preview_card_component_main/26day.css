@@ -1,25 +1,36 @@
-https:fonts.google.com/specimen/Montserrat
-/* https:fonts.google.com/specimen/Fraunces */
-*{
+/* @import url('https//:fonts.googleapis.com/css2?family=poppins:wght@400;700&family='); */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: bisque;
 }
 .container{
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 {
     width: 300px;
     height: 550px;
-    background-color:#ffffff;
-    margin: 40px;
+    background-color: #f3f0f0;
+    margin: 30px;
+    border-radius: 10px;
 }
-.container img{
+
+.container img {
     width: 300px;
     height: 200px;
     border-radius: 10px;
+
 }
-.box p{
+
+.box p {
     letter-spacing: 0.3rem;
     text-transform: uppercase;
     font-size: 12px;
@@ -27,32 +38,37 @@ body{
     margin-top: 20px;
     text-indent: 20px;
 }
-.box h1{
+
+.box h1 {
     margin-left: 20px;
     line-height: 30px;
     margin-top: 10px;
 }
-.abc p{
-    margin: 17px;
 
+.abc p {
+    margin: 17px;
 }
-.cba h1{
+
+.price h1 {
     color: green;
     text-indent: 20px;
 }
-.qwe{
-    color:darkslategrey;
+
+.qwe {
+    color: darkslategrey;
     font-size: 15px;
     text-decoration: line-through;
 }
-.button{
+
+.button {
     background-color: green;
-   border-radius: 10px;
-   text-align: center;
-   padding: 10px;
-   width: 220px;
-   margin-left: 30px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    width: 220px;
+    margin-left: 30px;
 }
-.AddtoCart{
+
+.AddtoCart {
     color: antiquewhite;
 }

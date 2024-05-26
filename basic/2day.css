@@ -6,10 +6,8 @@ body {
     font-size: 15px;
 }
 
-#first>p
-
-/*child selector */
-    {
+#first>p {
+    /*child selector */
     color: blue;
 }
 

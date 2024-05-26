@@ -1,43 +1,38 @@
-* {
-    border: 1px solid red;
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid rgb(236, 183, 232);
 }
-
-body {
+body{
     font-family: cursive;
 }
-
-p {
+/* p,li tag always block element*/
+/* span tag always inline element*/
+p{
     color: rgba(82, 130, 6, 0.938);
-    /* display:inline; */
-    width: 34px;
-    display: inline-block;
+     /* display:inline; */
+     display: inline-block;
 }
-
 img {
-    width: 500px;
+    width: 300px;
 }
-
 a {
     display: block;
 }
-
 ul {
-    /* list-style:square; */
+    list-style:square; 
     box-sizing: border-box;
     padding: 20px;
     text-align: end;
     background-color: rgb(194, 210, 228);
     color: rgb(97, 59, 9);
 }
-
 li {
     display: inline;
     padding: 4px;
 }
-
 li:hover {
     color: rgb(214, 26, 57);
+    cursor: pointer;
 }

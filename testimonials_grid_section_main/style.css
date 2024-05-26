@@ -1,30 +1,36 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: gainsboro;
 }
-.card{
+
+.card {
     /* width:min(95%,70rem); */
     display: grid;
     margin: 30px;
-    grid-template-areas: 'one''two''three''four''five';
+    grid-template-areas: 'one' 'two' 'three' 'four' 'five';
     grid-auto-columns: 1fr;
     gap: 20px;
 }
-img{
+
+img {
     border-radius: 30px;
     margin: 10px;
 }
-h3{
+
+h3 {
     font-style: oblique;
 }
-p{
+
+p {
     text-transform: capitalize;
 }
-.box{
+
+.box {
     background-color: aqua;
     padding: 20px;
     border-radius: 10px;
@@ -33,49 +39,59 @@ p{
     background-repeat: no-repeat;
     background-position: top right;
 }
-.qwert{
+
+.qwert {
     display: flex;
 }
-.box1{
+
+.box1 {
     background-color: rgb(16, 175, 77);
     padding: 20px;
     border-radius: 10px;
     grid-area: two;
 }
-.qwert1{
+
+.qwert1 {
     display: flex;
 }
-.box2{
+
+.box2 {
     background-color: rgb(66, 201, 25);
     padding: 20px;
     border-radius: 10px;
     grid-area: three;
 }
-.qwert2{
+
+.qwert2 {
     display: flex;
 }
-.box3{
+
+.box3 {
     background-color: rgb(61, 17, 102);
     padding: 20px;
     border-radius: 10px;
     grid-area: four;
 }
-.qwert3{
+
+.qwert3 {
     display: flex;
 }
-.box4{
+
+.box4 {
     background-color: rgb(231, 101, 26);
     padding: 20px;
     border-radius: 10px;
     grid-area: five;
 }
-.qwert4{
+
+.qwert4 {
     display: flex;
 }
+
 @media(width>=600px) {
-    .card{
+    .card {
         grid-template-areas:
-        'one one two five'
-        'three four four five' ;     
+            'one one two five'
+            'three four four five';
     }
 }

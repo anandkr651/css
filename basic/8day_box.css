@@ -20,7 +20,12 @@ body {
     position: relative;
     top: 10px;
     left: 100px;
-    border-radius: 10px;
+}
+
+.purple {
+    background-color: purple;
+    position: sticky;
+    top: 200px;
 }
 
 .green {
@@ -38,13 +43,6 @@ body {
     right: 40px;
     z-index: 1;
 }
-
-.purple {
-    background-color: purple;
-    position: sticky;
-    top: 200px;
-}
-
 .spacer {
     height: 300vh;
 }
