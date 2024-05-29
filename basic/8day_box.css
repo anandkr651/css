@@ -17,20 +17,20 @@ body {
 
 .red {
     background-color: red;
-    position: relative;
+    position: relative; /*related to the parent*/
     top: 10px;
     left: 100px;
 }
 
 .purple {
     background-color: purple;
-    position: sticky;
+    position: sticky;  /*related to the parent*/
     top: 200px;
 }
 
 .green {
     background-color: chartreuse;
-    position: absolute;
+    position: absolute;/*related to the whole html*/
     bottom: 0;
     right: 0;
     z-index: 2;
@@ -38,7 +38,7 @@ body {
 
 .blue {
     background-color: blue;
-    position: fixed;
+    position: fixed; /*related to the whole html*/
     bottom: 30px;
     right: 40px;
     z-index: 1;

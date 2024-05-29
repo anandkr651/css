@@ -77,7 +77,7 @@ body {
 
 
 /*media query for width <=1024px */
-@media screen and (max-width:1024px) {
+@media screen and (max-width:900px) {
 
     .container {
         flex-direction: column;

@@ -7,18 +7,19 @@
 body{
     font-family: cursive;
 }
-/* p,li tag always block element*/
-/* span tag always inline element*/
+/* p,li,(h1 to h6),div,form,ol,ul tag always block element*/
+/* span,img,a tag always inline element*/
+/* we cannot define the width of anchor tag*/
+/*img is the pure inline-block elements*/
 p{
     color: rgba(82, 130, 6, 0.938);
-     /* display:inline; */
-     display: inline-block;
+    /* display:inline; */
 }
 img {
     width: 300px;
 }
 a {
-    display: block;
+    display: block-inline;
 }
 ul {
     list-style:square; 
