@@ -306,3 +306,7 @@ footer {
     justify-content: center;
     gap: 30px;
 }
+.fa-brand{
+    background-color: #183b54;
+    color: chartreuse;
+}

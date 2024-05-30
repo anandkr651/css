@@ -33,6 +33,7 @@ h3 {
 a{
     text-decoration: none;
     display: inline-block;
+    color: var(--Grayish-Blue);
 }
 
 p{
@@ -125,6 +126,7 @@ p{
     background-color: var(--Very-Dark-Cyan);
     margin-top: 120px;
     position: relative;
+    padding: var(--padding-inline-section);
 }
 .footer-upper{
     background-color: #d6ece6;
@@ -136,14 +138,22 @@ p{
     left: 0;
     transform: translateX(50%); 
     top: -50px;
+    padding: var(--padding-inline-section);
+    border-radius: 10px;
 }
-.footer-lower{
-    /* align-items: flex-start; */
-    justify-content: space-between;
+.footer-upper h3{
+    margin-bottom: 10px;
 }
 .link-column{
     flex-direction: column;
-    /* align-items: flex-start; */
+    align-items: flex-start;
     margin-inline: auto;
-    /* flex-basis: 400px; */
+    flex-basis: 400px;
+}
+.fa-brands{
+    background-color: aliceblue;
+    color: chocolate;
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px;
 }
