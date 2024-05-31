@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="23day.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="23.1day.css">
 </head>
+
 <body>
     <!--top-banner-->
     <div class="top-banner">
         <div class="container">
-        <div class="small-bold-text">new to usability hub:open and closed card sorting</div>
+            <div class="small-bold-text banner-text">new to usability hub:open and closed card sorting</div>
+        </div>
     </div>
-</div>
-    
-<!-- nav bar -->
+
+    <!-- nav bar -->
     <nav>
         <div class="container main-nav flex">
             <a href="#" class="company-logo">
                 <img src="photo_0.png" alt="company-logo">
             </a>
-            <div class="nav-links">
+            <div class="nav-links" id="nav-links">
                 <ul class="flex">
                     <li><a href="#" class="hover-link">product</a></li>
                     <li><a href="#" class="hover-link">customer</a></li>
@@ -32,7 +37,7 @@
                     <li><a href="#" class="hover-link primary-button">sign up</a></li>
                 </ul>
             </div>
-            <a href="#" class="nav-toggle hover-link">
+            <a href="#" class="nav-toggle hover-link" id="nav-toggle">
                 <i class="fa-solid fa-bars"></i>
             </a>
         </div>
@@ -40,115 +45,120 @@
     <!-- header section -->
     <header>
         <div class="container header-section flex">
-         <div class="header-left">
-         <h1>design confidently</h1>
-         <p>usabilityhub is a remote user research plateform that takes the guesswork out of design decision by validating them with real users.</p>
-         <a href="#" class="primary-button">get started</a>
-         </div>
-         <div class="header-right">
-         <img src="photo_1.jpg" alt="hero image">
-        </div>
+            <div class="header-left">
+                <h1>design confidently</h1>
+                <p>usabilityhub is a remote user research plateform that takes the guesswork out of design decision by
+                    validating them with real users.</p>
+                <a href="#" class="primary-button get-started-btn">get started</a>
+            </div>
+            <div class="header-right">
+                <img src="photo_1.jpg" alt="hero image">
+            </div>
         </div>
     </header>
     <!-- companies-section-->
     <section class="companies-section">
         <div class="container">
-<div class="small-bold-text  companies-header">the world's best companies rely on usabilityhub to make better design decisions.</div>
-  <div class="logos">
-    <img class="logo" src="photo_8.png">
-    <img class="logo" src="photo_6.png">
-    <img class="logo" src="photo_5.png">
-    <img class="logo" src="photo_7.png">
-    <img class="logo" src="photo_10.png">
-    <img class="logo" src="photo_9.png">
-  </div>
+            <div class="small-bold-text  companies-header">the world's best companies rely on usabilityhub to make
+                better design decisions.</div>
+            <div class="logos flex">
+                <img src="photo_8.png" class="logo" alt="">
+                <img src="photo_6.png" class="logo" alt="">
+                <img src="photo_5.png" class="logo" alt="">
+                <img src="photo_7.png" class="logo" alt="">
+                <img src="photo_10.png" class="logo" alt="">
+                <img src="photo_9.png" class="logo" alt="">
+            </div>
         </div>
     </section>
     <!-- feature section -->
     <section class="features-section">
         <div class="container">
             <div class="features-header">
-                <h2>your user research swiss army knife</h2>
+                <h2 class="features-header-text">your user research swiss army knife</h2>
                 <a href="#" class="secondary-button">see all features <i class="fa-solid fa-right-long"></i></a>
             </div>
             <div class="features-area flex">
-             <div class="features-card flex">
-                <img src="photo_16.svg" alt="">
-                <h3>card sorting</h3>
-                <p>discover how people group and label information.</p>
-                <a href="#" class="secondary-button">learn more <i class="fa-solid fa-right-long"></i></a>
-             </div>
-             <div class="features-card flex">
-                <img src="photo_11.svg" alt="">
-                <h3>prototype tests</h3>
-                <p>discover how people navigate your figma prototypes.</p>
-                <a href="#" class="secondary-button">learn more <i class="fa-solid fa-right-long"></i></a>
-             </div>
-             <div class="features-card flex">
-                <img src="photo_13.svg" alt="">
-                <h3>first click tests</h3>
-                <p>test interaction with first click and navigation tests.</p>
-                <a href="#" class="secondary-button">learn more <i class="fa-solid fa-right-long"></i></a>
-             </div>
-             <div class="features-card flex">
-                <img src="photo_14.svg" alt="">
-                <h3>design surveys</h3>
-                <p>get feedback on image,vidoes or audio files.</p>
-                <a href="#" class="secondary-button">learn more <i class="fa-solid fa-right-long"></i></a>
-             </div>
-             <div class="features-card flex">
-                <img src="photo_12.svg" alt="">
-                <h3>preference tests</h3>
-                <p>find out which design users prefer and why.</p>
-                <a href="#" class="secondary-button">learn more <i class="fa-solid fa-right-long"></i></a>
-             </div>
-             <div class="features-card flex">
-                <img src="photo_15.svg" alt="">
-                <h3>five second tests</h3>
-                <p>test comprehensibility by measuring first impression.</p>
-                <a href="#" class="secondary-button">learn more <i class="fa-solid fa-right-long"></i></a>
-             </div>
+                <div class="features-card flex">
+                    <img src="photo_16.svg" alt="">
+                    <h3>card sorting</h3>
+                    <p>discover how people group and label information.</p>
+                    <a href="#" class="secondary-button">learn more <i class="fa-solid fa-right-long"></i></a>
+                </div>
+                <div class="features-card flex">
+                    <img src="photo_11.svg" alt="">
+                    <h3>prototype tests</h3>
+                    <p>discover how people navigate your figma prototypes.</p>
+                    <a href="#" class="secondary-button">learn more <i class="fa-solid fa-right-long"></i></a>
+                </div>
+                <div class="features-card flex">
+                    <img src="photo_13.svg" alt="">
+                    <h3>first click tests</h3>
+                    <p>test interaction with first click and navigation tests.</p>
+                    <a href="#" class="secondary-button">learn more <i class="fa-solid fa-right-long"></i></a>
+                </div>
+                <div class="features-card flex">
+                    <img src="photo_14.svg" alt="">
+                    <h3>design surveys</h3>
+                    <p>get feedback on image,vidoes or audio files.</p>
+                    <a href="#" class="secondary-button">learn more <i class="fa-solid fa-right-long"></i></a>
+                </div>
+                <div class="features-card flex">
+                    <img src="photo_12.svg" alt="">
+                    <h3>preference tests</h3>
+                    <p>find out which design users prefer and why.</p>
+                    <a href="#" class="secondary-button">learn more <i class="fa-solid fa-right-long"></i></a>
+                </div>
+                <div class="features-card flex">
+                    <img src="photo_15.svg" alt="">
+                    <h3>five second tests</h3>
+                    <p>test comprehensibility by measuring first impression.</p>
+                    <a href="#" class="secondary-button">learn more <i class="fa-solid fa-right-long"></i></a>
+                </div>
             </div>
-          </div>
+        </div>
     </section>
 
     <!-- big feature section -->
     <section class="big-feature-section">
         <div class="container flex big-feature-container">
-       <div class="feature-img">
-        <img src="photo_2.png" alt="">
-       </div>
-       <div class="feature-desc flex">
-        <h4>effortless validation for</h4>
-        <h3>design professionals</h3>
-        <p>test interfaces, interaction flows,iconography and more, to help you create intuitive and delightful experiences for your users.</p>
-       </div>
+            <div class="feature-img">
+                <img src="photo_2.png" alt="">
+            </div>
+            <div class="feature-desc flex">
+                <h4>effortless validation for</h4>
+                <h3>design professionals</h3>
+                <p>test interfaces, interaction flows,iconography and more, to help you create intuitive and delightful
+                    experiences for your users.</p>
+            </div>
         </div>
     </section>
 
     <section class="big-feature-section">
         <div class="container flex big-feature-container">
-       <div class="feature-desc flex">
-        <h4>optimisation for</h4>
-        <h3>marketers</h3>
-        <p>fine-tune landing pages,messaging, and creative, helping you optimise conversion rates on marketing campaigns and product launches.</p>
-       </div>
-       <div class="feature-img">
-        <img src="photo_3.png" alt="">
-       </div>
+            <div class="feature-desc flex">
+                <h4>optimisation for</h4>
+                <h3>marketers</h3>
+                <p>fine-tune landing pages,messaging, and creative, helping you optimise conversion rates on marketing
+                    campaigns and product launches.</p>
+            </div>
+            <div class="feature-img">
+                <img src="photo_3.png" alt="">
+            </div>
         </div>
     </section>
 
     <section class="big-feature-section">
         <div class="container flex big-feature-container">
-       <div class="feature-img">
-        <img src="photo_4.png" alt="">
-       </div>
-       <div class="feature-desc flex">
-        <h4>easier decision making for</h4>
-        <h3>product managers</h3>
-        <p>ensure you're delivering the right features to the right customers by validating product concept with your targrt audience.</p>
-       </div>
+            <div class="feature-img">
+                <img src="photo_4.png" alt="">
+            </div>
+            <div class="feature-desc flex">
+                <h4>easier decision making for</h4>
+                <h3>product managers</h3>
+                <p>ensure you're delivering the right features to the right customers by validating product concept with
+                    your targrt audience.</p>
+            </div>
         </div>
     </section>
 
@@ -157,22 +167,21 @@
         <div class="container">
             <div class="example-header">
                 <h2 class="example-heading-text">one plateform, endless possibilities</h2>
-                <a href="#" class="secondary-button">see more example <i class="fa-solid fa-right-long" ></i></a>
+                <a href="#" class="secondary-button">see more example <i class="fa-solid fa-right-long"></i></a>
             </div>
             <div class="example-area flex">
                 <a href="#" class="example-card">
-             <h3 class="card-text">can user complete a task in my software interface?</h3>
-             </a>
-             <a href="#" class="example-card">
-                <h3 class="card-text">can users find important pages on my website.</h3>
+                    <h3 class="card-text">can user complete a task in my software interface?</h3>
                 </a>
                 <a href="#" class="example-card">
-                    <h3 class="card-text"> is my website intended audience clear?</h3>                  
-                 </a>
-                    <a href="#" class="example-card">
-                        <h3 class="card-text">do visitors understand what a page is about</h3>
-                        </a>
-                </div>
+                    <h3 class="card-text">can users find important pages on my website.</h3>
+                </a>
+                <a href="#" class="example-card">
+                    <h3 class="card-text"> is my website intended audience clear?</h3>
+                </a>
+                <a href="#" class="example-card">
+                    <h3 class="card-text">do visitors understand what a page is about</h3>
+                </a>
             </div>
         </div>
     </section>
@@ -186,48 +195,56 @@
     </section>
 
     <!-- footer -->
-<footer>
-    <div class="container flex footer-container">
-        <a href="#" class="company-logo">
-            <img src="photo_0.png" alt="">
-        </a>
-        <div class="link-column flex">
-            <h4>product</h4>
-            <a href="#" class="hover-link">overview</a>
-            <a href="#" class="hover-link">pricing</a>
-            <a href="#" class="hover-link">usabilityhub panel</a>
-            <a href="#" class="hover-link">customer </a>
-            <a href="#" class="hover-link">status page</a>
+    <footer>
+        <div class="container flex footer-container">
+            <a href="#" class="company-logo">
+                <img src="photo_0.png" alt="">
+            </a>
+            <div class="link-column flex">
+                <h4>product</h4>
+                <a href="#" class="hover-link">overview</a>
+                <a href="#" class="hover-link">pricing</a>
+                <a href="#" class="hover-link">usabilityhub panel</a>
+                <a href="#" class="hover-link">customer </a>
+                <a href="#" class="hover-link">status page</a>
+            </div>
+            <div class="link-column flex">
+                <h4>methodology</h4>
+                <a href="#" class="hover-link">overview</a>
+                <a href="#" class="hover-link">pricing</a>
+                <a href="#" class="hover-link">usabilityhub panel</a>
+                <a href="#" class="hover-link">customer</a>
+                <a href="#" class="hover-link">status page</a>
+            </div>
+            <div class="link-column flex">
+                <h4>resources</h4>
+                <a href="#" class="hover-link">overview</a>
+                <a href="#" class="hover-link">pricing</a>
+                <a href="#" class="hover-link">usabilityhub panel</a>
+                <a href="#" class="hover-link">customer</a>
+                <a href="#" class="hover-link">status page</a>
+            </div>
         </div>
-        <div class="link-column flex">
-            <h4>methodology</h4>
-            <a href="#" class="hover-link">overview</a>
-            <a href="#" class="hover-link">pricing</a>
-            <a href="#" class="hover-link">usabilityhub panel</a>
-            <a href="#" class="hover-link">customer</a>
-            <a href="#" class="hover-link">status page</a>
-        </div>
-        <div class="link-column flex">
-            <h4>resources</h4>
-            <a href="#" class="hover-link">overview</a>
-            <a href="#" class="hover-link">pricing</a>
-            <a href="#" class="hover-link">usabilityhub panel</a>
-            <a href="#" class="hover-link">customer</a>
-            <a href="#" class="hover-link">status page</a>
+    </footer>
+
+    <!-- subfooter -->
+    <div class="subfooter">
+        <div class="container flex subfooter-container">
+            <a class="hover-link" href="#">privacy policy</a>
+            <a class="hover-link" href="#">term & condition</a>
+            <a class="hover-link" href="#">security information</a>
+            <i class="fa-brand fa-facebook"></i>
+            <i class="fa-brand fa-twitter"></i>
         </div>
     </div>
-</footer>
-
-<!-- subfooter -->
-<div class="subfooter">
-    <div class="container flex subfooter-container">
-        <a class="hover-link" href="#">privacy policy</a>
-        <a class="hover-link" href="#">term & condition</a>
-        <a class="hover-link" href="#">security information</a>
-        <a class="hover-link" href="#"><i class="fa-brand fa-facebook"></i></a>
-        <a class="hover-link" href="#"><i class="fa-brand fa-twitter"></i></a>
-    </div>
-</div>
-
+    <!-- <script src="https://kit.fontawesome.com/cf7fa3005f.js" crossorigin="anonymous"></script> -->
+    <script>
+        const toggle=document.getElementById('nav-toggle');
+        const navlink=document.getElementById('nav-links');
+        toggle.addEventListener('click',() =>{
+            navlink.classList.toggle('active')
+        })
+    </script>
 </body>
+
 </html>
