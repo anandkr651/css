@@ -1,79 +1,72 @@
- *{
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
  }
- body{
-     background-color:hsl(225, 100%, 94%) ;
-     background-image: url(pattern-background-desktop.svg);
-     background-repeat: no-repeat;
-      background-size: cover;
-      display: grid;
-      place-content: center;
-      height: 100vh;
-   }
-.container{
-    width: 400px;
-    height: 600px; 
-    background-color: hsl(0,0%,100%);  
-    border-radius: 30px;
-    margin-left: 40%;
-    overflow: hidden;
-}
-.container img{
-   
+
+ body {
+    background-color: hsl(225, 100%, 94%);
+ }
+
+ .container {
+    background-color: hsl(0, 0%, 100%);
+    width: 450px;
+    margin: auto;
+    margin-top: 50px;
     border-radius: 20px;
-    width: 400px;
-    height: 200px;
+ }
+
+ .container img {
+    border-radius: 20px;
     padding-bottom: 20px;
+ }
+
+ .text-section {
     text-align: center;
-    
+    margin: 25px;
  }
- .box h2{
-    text-align: center;
+
+ .text-section h3 {
+    margin-bottom: 20px;
+    font-size: 1.75rem;
  }
- .box p{
-     text-align: center;
-    margin: 40px;
+
+ .rate-section {
+    margin-inline: 10%;
  }
- .plane{
+
+ .flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-inline: auto;
-    background-color: hsl(225, 100%, 98%);
+    background-color: hsl(230, 30%, 85%);
     border-radius: 20px;
-    padding-inline: 12px;
-    padding-block: 1rem;
-    margin-bottom: 1rem;
-    width: 300px;
-   } 
+    padding-inline: 10px;
 
-.plane .left-box{
-    display: flex;
-   align-items: center;
-   gap: 4px;
-}
-.button{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
-  .payment-btn {
-   display: block;
-   width: 300px;
-   margin-inline: auto;
-   background-color: hsl(245, 75%, 52%) ;
-   color: white;
-   padding: 10px 0px;
-   border-radius: 10px;
-   font-size: 15px;
-   font-weight: 900;
-   text-align: center;
-   align-items: center;
-   text-decoration: none;
- } 
- .cancle-btn{
-  text-decoration: none;
  }
-  
+
+ .left img {
+    margin-top: 10px;
+ }
+
+ .button-section {
+    margin-top: 20px;
+ }
+
+ .payment-btn {
+    display: block;
+    margin-inline: auto;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    width: 80%;
+ }
+
+ .cancle-btn {
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: block;
+    text-align: center;
+ }

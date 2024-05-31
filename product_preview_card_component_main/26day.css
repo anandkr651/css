@@ -8,26 +8,22 @@
 body {
     background-color: bisque;
 }
-.container{
-    background-color: bisque;
+.container {
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 50px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 600px;
 }
 
-.box1 {
+.box2 img{
     width: 300px;
-    height: 550px;
-    background-color: #f3f0f0;
-    margin: 30px;
-    border-radius: 10px;
+    height: 400px;
 }
-
-.container img {
-    width: 300px;
-    height: 200px;
-    border-radius: 10px;
-
+.box1{
+    color: rgb(35, 39, 39);
+    margin: 20px; 
 }
 
 .box p {
@@ -40,18 +36,17 @@ body {
 }
 
 .box h1 {
-    margin-left: 20px;
     line-height: 30px;
-    margin-top: 10px;
+    margin: 17px;
 }
 
 .abc p {
-    margin: 17px;
+    margin-inline: 17px;
 }
 
 .price h1 {
     color: green;
-    text-indent: 20px;
+    padding: 20px;
 }
 
 .qwe {
@@ -65,10 +60,23 @@ body {
     border-radius: 10px;
     text-align: center;
     padding: 10px;
-    width: 220px;
+    width: 80%;
     margin-left: 30px;
 }
 
 .AddtoCart {
+    text-decoration: none;
     color: antiquewhite;
+} 
+@media screen and (max-width:479px) {
+    .container{
+        width: 300px;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+    .box2 img{
+        width: 300px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
 }
