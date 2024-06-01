@@ -177,19 +177,14 @@ p{
         flex-direction: column;
     }
     .lower-left{
-        text-align:left;
         align-items: center;
+        /* width: 100vw; */
     }
     .footer-upper{
-        text-align: center;
-        
+        width: 70vw;           
     }
     .footer-lower{
         flex-direction: column;
-        align-items: stretch;
+        padding-top: 80px;
     }
-    .link-column{
-        border: 1px solid red;
-        text-align: center;
-     }
 }
