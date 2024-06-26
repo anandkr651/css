@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid rgb(236, 183, 232);
+  border: 1px solid rgb(231, 129, 223);
 }
 body {
   font-family: cursive;
@@ -22,7 +22,6 @@ a {
   display: block-inline;
 }
 ul {
-  list-style: square;
   box-sizing: border-box;
   padding: 20px;
   text-align: end;
@@ -36,4 +35,8 @@ li {
 li:hover {
   color: rgb(214, 26, 57);
   cursor: pointer;
+}
+
+li:active{
+    background-color: orange;
 }
