@@ -1,35 +1,35 @@
 #first {
-    color: greenyellow;
+  color: greenyellow;
 }
 
 body {
-    font-size: 15px;
+  font-size: 15px;
 }
 
-#first>p {
-    /*child selector */
-    color: blue;
+#first > p {
+  /*child selector */
+  color: blue;
 }
 
 p:hover {
-    font-family: sans-serif;
-    font-size: 10px;
+  font-family: sans-serif;
+  font-size: 10px;
 }
 
 #first,
 #second {
-    color: red;
+  color: red;
 }
 
 .purple {
-    color: darkblue;
-    font-family: monospace;
+  color: darkblue;
+  font-family: monospace;
 }
 
 .highlight {
-    background: yellow;
-    font-weight: bolder;
-    font-size: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: oblique;
+  background: yellow;
+  font-weight: bolder;
+  font-size: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: oblique;
 }

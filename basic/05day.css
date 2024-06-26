@@ -1,17 +1,17 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .box {
-    border: 5px solid red;
-    font-size: 35px;
-    width: 100px;
-    height: 100px;
-    /* padding: 20px; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 40px;
+  border: 5px solid red;
+  font-size: 35px;
+  width: 100px;
+  height: 100px;
+  /* padding: 20px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
 }

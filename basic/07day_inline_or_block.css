@@ -1,39 +1,39 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: 1px solid rgb(236, 183, 232);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid rgb(236, 183, 232);
 }
-body{
-    font-family: cursive;
+body {
+  font-family: cursive;
 }
 /* p,li,(h1 to h6),div,form,ol,ul tag always block element*/
 /* span,img,a tag always inline element*/
 /* we cannot define the width of anchor tag*/
 /*img is the pure inline-block elements*/
-p{
-    color: rgba(82, 130, 6, 0.938);
-    /* display:inline; */
+p {
+  color: rgba(82, 130, 6, 0.938);
+  /* display:inline; */
 }
 img {
-    width: 300px;
+  width: 300px;
 }
 a {
-    display: block-inline;
+  display: block-inline;
 }
 ul {
-    list-style:square; 
-    box-sizing: border-box;
-    padding: 20px;
-    text-align: end;
-    background-color: rgb(194, 210, 228);
-    color: rgb(97, 59, 9);
+  list-style: square;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: end;
+  background-color: rgb(194, 210, 228);
+  color: rgb(97, 59, 9);
 }
 li {
-    display: inline;
-    padding: 4px;
+  display: inline;
+  padding: 4px;
 }
 li:hover {
-    color: rgb(214, 26, 57);
-    cursor: pointer;
+  color: rgb(214, 26, 57);
+  cursor: pointer;
 }
