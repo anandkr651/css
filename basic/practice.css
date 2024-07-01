@@ -1,4 +1,4 @@
-/*1.dropdown-content{
+.dropdown-content{
     display: none;
   
 }
@@ -8,7 +8,6 @@
 .dropdown{
     display: inline-block;
 }
-1*/
 
 h1 {
     color: blueviolet;
