@@ -10,15 +10,16 @@
 
  .container {
     background-color: hsl(0, 0%, 100%);
-    width: 450px;
+    width: 350px;
     margin: auto;
     margin-top: 50px;
     border-radius: 20px;
  }
 
- .container img {
+ .image-section img{
     border-radius: 20px;
     padding-bottom: 20px;
+    width: 350px;
  }
 
  .text-section {
@@ -42,7 +43,10 @@
     background-color: hsl(230, 30%, 85%);
     border-radius: 20px;
     padding-inline: 10px;
-
+    gap: 10px;
+ }
+ .right{
+   list-style: none;
  }
 
  .left img {
@@ -50,7 +54,7 @@
  }
 
  .button-section {
-    margin-top: 20px;
+    margin-block: 20px;
  }
 
  .payment-btn {
@@ -62,6 +66,9 @@
     border-radius: 15px;
     text-align: center;
     width: 80%;
+    outline: none;
+    border: none;
+    cursor: pointer;
  }
 
  .cancle-btn {
